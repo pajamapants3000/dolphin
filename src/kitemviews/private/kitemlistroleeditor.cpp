@@ -30,6 +30,7 @@ KItemListRoleEditor::KItemListRoleEditor(QWidget *parent) :
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setAcceptRichText(false);
     enableFindReplace(false);
+    setUseSonnetMenu(false);
     document()->setDocumentMargin(0);
 
     if (parent) {
